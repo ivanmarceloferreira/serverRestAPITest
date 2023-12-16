@@ -1,0 +1,25 @@
+{
+  "name": "serverrestapitest",
+  "version": "1.0.0",
+  "description": "Testes para a API Server Rest - MBA DevOps",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx cypress open",
+    "cy:run": "npx cypress run",
+    "test": "npx cypress run"
+  }, 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanmarceloferreira/serverRestAPITest.git"
+  },
+  "author": "Ivan Ferreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivanmarceloferreira/serverRestAPITest/issues"
+  },
+  "homepage": "https://github.com/ivanmarceloferreira/serverRestAPITest#readme",
+  "dependencies": {
+    "cypress": "^13.6.1",
+    "unique-names-generator": "^4.7.1"
+  }
+}
