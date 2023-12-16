@@ -4,8 +4,10 @@
   "description": "Testes para a API Server Rest - MBA DevOps",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "start": "npx cypress open",
+    "cy:run": "npx cypress run",
+    "test": "npx cypress run"
+  }, 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ivanmarceloferreira/serverRestAPITest.git"
